@@ -89,7 +89,7 @@ const config = {
             items: [
               {
                 label: 'Style Guide',
-                to: 'docs/',
+                to: 'docs/intro',
               },
             ],
           },
