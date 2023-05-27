@@ -54,6 +54,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
       navbar: {
         title: 'My Site',
         logo: {
@@ -70,7 +75,7 @@ const config = {
           { to: 'blog', label: 'Blog', position: 'left' },
           // Please keep GitHub link to the right for consistency.
           {
-            href: 'https://github.com/thangbuiq/meta-docusaurus-blog',
+            href: 'https://github.com/thangbuiq',
             label: 'GitHub',
             position: 'right',
           },
