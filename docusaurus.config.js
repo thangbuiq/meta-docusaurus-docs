@@ -135,7 +135,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Try daily.dev <a target="_blank" rel="noopener noreferrer" href="https://daily.dev"> now!</a>',
+          'Have fun!',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,
