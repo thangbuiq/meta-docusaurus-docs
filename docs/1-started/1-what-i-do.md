@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # MLE Journey Map
-![picture 5](../../images/c87da20ae0e979c1f06cb215d0ee687a947319e67d80fbe40be1c267fe8f7658.png)  
+![](../../images/c87da20ae0e979c1f06cb215d0ee687a947319e67d80fbe40be1c267fe8f7658.png)  
 :::info **Very first step:** 
 Học ngoại ngữ (Tiếng Anh) ở mức khá để có thể đọc hiểu nhiều tài liệu tiếng anh, vì đa số tài liệu chuyên ngành của Data Science nói chung và Data Engineer nói riêng đều viết bằng tiếng anh.
 :::
