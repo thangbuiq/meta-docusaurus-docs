@@ -14,7 +14,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: "Hi there! I'm thangbuiq",
   tagline: 'Cảm ơn mọi người đã ghé thăm trang blog của mình. Mình đang trên con đường hoàn thiện bản thân, và có thể biến mọi ý tưởng thành sự thật là ước muốn của mình',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://thangbuiq.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

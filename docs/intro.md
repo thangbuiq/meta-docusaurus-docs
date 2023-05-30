@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Giới thiệu
 
-Xin chào các bạn đã đến với trang blog/document của **@thangbuiq**.
+Xin chào các bạn đã đến với trang document của **@thangbuiq**.
 
 ## Ở đây có gì?
 
@@ -12,6 +12,6 @@ Tại trang blog này, mình sẽ chia sẻ tần tật những kinh nghiệm m�
 
 Các bạn cũng có thể ghé thăm trang **Github** của mình tại đây **[@thangbuiq.github](https://github.com/thangbuiq)**.
 
-## Chúc các bạn vui vẻ khi đã ghé thăm trang của mình nhé!
+## Cảm ơn các bạn khi đã ghé thăm trang của mình nhé!
 ---
 

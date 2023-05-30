@@ -13,11 +13,12 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 3.5rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: #9167e6;
+  /* background-color: #9167e6; */
+  background: linear-gradient(-225deg, rgb(82, 113, 196) 0%, rgb(177, 159, 255) 48%, rgb(236, 161, 254) 100%) !important;
   color: white;
 }
 
@@ -45,11 +46,12 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 2.5rem 0;
   width: 100%;
 }
 
 .featureImage {
   height: 200px;
   width: 200px;
+  margin-bottom: .5cm;
 }
