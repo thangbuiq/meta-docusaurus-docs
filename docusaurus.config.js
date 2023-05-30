@@ -12,8 +12,8 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '@thangbuiq',
-  tagline: 'A blog that tells about my journey as a data engineer',
+  title: "Hi there! I'm thangbuiq",
+  tagline: 'Cảm ơn mọi người đã ghé thăm trang blog của mình. Mình đang trên con đường hoàn thiện bản thân, và có thể biến mọi ý tưởng thành sự thật là ước muốn của mình',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -88,7 +88,7 @@ const config = {
             title: 'Learn',
             items: [
               {
-                label: 'Style Guide',
+                label: 'Full Guide',
                 to: 'docs/intro',
               },
             ],
@@ -135,7 +135,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Have fun!',
+          'Chúc các bạn đọc blog vui vẻ nhé!',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,

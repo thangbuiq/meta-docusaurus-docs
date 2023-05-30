@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <Layout
       title={`Blog`}
-      description="My Data Engineer Journey Blog">
+      description="Xin chào các bạn đã đến với trang Blog của tui nha. Ở đây, tui sẽ chia sẻ những kiến thức mà tui đã biết cũng như lộ trình trên con đường Machine Learning Enginner mà tui đang đi. Chúc các bạn xem trang vui vẻ nhé!">
       <HomepageHeader />
       <main>
         <HomeNavBoxes />

@@ -17,29 +17,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Lorem Lorem',
-    // imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Trang này có gì hay?',
+    imageUrl: 'img/penguin.png',
     description: (
       <>
-        Lorem LoremLorem LoremLorem LoremLorem Lorem
+        Tại đây, mình sẽ chia sẻ về con đường mà mình đã và đang đi, đồng thời cũng là trang document để mình tổng hợp và lưu lại những kiến thức mà mình tự học được từ nhiều nguồn đáng tin cậy.
       </>
     ),
   },
   {
-    title: 'Lorem Lorem',
-    // imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Không chỉ là kiến thức chuyên ngành',
+    imageUrl: 'img/cutepg.png',
     description: (
       <>
-        Lorem LoremLorem LoremLorem LoremLorem Lorem
+        Bên cạnh những kiến thức chuyên ngành khô khan, mình còn viết blog, viết những mẩu chuyện nhỏ, hay và tích cực vì mình có nhiều thứ để chia sẻ lắm.
       </>
     ),
   },
   {
-    title: 'Lorem Lorem',
-    // imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Tổng hợp các trick Linux',
+    imageUrl: 'img/Tux.png',
     description: (
       <>
-        Lorem LoremLorem LoremLorem LoremLorem Lorem
+        Mình sẽ chia sẻ những mẹo hay mình đã góp nhặt được từ lúc mình bắt đầu sử dụng Linux cho đến giờ. Bên cạnh những mẹo này, các bạn cũng có thể tham khảo một document về Linux hoàn chỉnh ở đây: <a href="https://ubunchuu-truong-us.github.io/"> https://ubunchuu-truong-us.github.io </a>
       </>
     ),
   },
@@ -65,8 +65,8 @@ export default function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Blog`}
+      description="Xin chào các bạn đã đến với trang Blog của tui nha. Ở đây, tui sẽ chia sẻ những kiến thức mà tui đã biết cũng như lộ trình trên con đường Machine Learning Enginner mà tui đang đi. Chúc các bạn xem trang vui vẻ nhé!">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
