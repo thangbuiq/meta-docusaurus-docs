@@ -9,8 +9,8 @@ Học ngoại ngữ (Tiếng Anh) ở mức khá để có thể đọc hiểu n
 :::
 ## 1. Foundations: (kiến thức nền tảng)
 
-- Trước hết, ta sẽ bắt đầu với kiến thức nền tảng vững chắc trong Data Engineer bằng cách hiểu concept của nó là gì, Data structures cũng như nền tảng toán học cho Machine Learning.
-- Học một ngôn ngữ lập trình mạnh (hoặc nhiều ngôn ngữ, **recommend** nhất là **Python**), các kiến thức cần học của ngôn ngữu bao gồm control flow, data types, hàm, và lập trình OOP.
+- Trước hết, ta sẽ bắt đầu với kiến thức nền tảng vững chắc trong Data Engineer bằng cách hiểu concept của nó là gì, data structures cũng như nền tảng toán học cho Machine Learning.
+- Học một ngôn ngữ lập trình mạnh (hoặc nhiều ngôn ngữ, **recommend** nhất là **Python**), các kiến thức cần học của ngôn ngữ lập trình bao gồm control flow, data types, hàm, và lập trình OOP.
 
 ## 2. Data Manipulation và Analysis:
 ![picture 6](../../images/ec46e99e2e1564e976eafb1bd195859a3c7bf0960ae600bb237668f57423c68d.png)  
@@ -39,7 +39,7 @@ Học ngoại ngữ (Tiếng Anh) ở mức khá để có thể đọc hiểu n
 ## 6. Xây dựng Data Pipelines: ("đường ống dữ liệu")
 ![picture 7](../../images/7c2905628d5135a891b074e2e99e5de667b8def1095c4a2a77143371b893f8c3.png)  
 - Khám phá qua Apache Airflow hay Dagster để có thể setup và điều phối data pipelines.
-- Học cách để schedule, monitor, và quản lý các tasks data processing in a distributed environment. (với Docker và Airflow/Dagster).
+- Học cách để schedule, monitor, và quản lý các tasks data processing trong một distributed environment - hệ thống phân tán. (với Docker và Airflow/Dagster).
 
 ## 7. Web Development và Deployment:
 
