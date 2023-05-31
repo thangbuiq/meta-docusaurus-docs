@@ -37,7 +37,7 @@ Hiểu nôm na là phần mềm sẽ cung cấp cho các bạn từ A-Z, đến 
 
 Cứ hiểu là bạn muốn kinh doanh làm ăn cái gì đó nhưng bạn đang thiếu mặt bằng, và có một nơi (gọi là nhà cung cấp dịch vụ) sẽ mở dịch vụ cho thuê mặt bằng, bạn đến và thuê một mảnh đất nằm giữa đường hoa Nguyễn Huệ kinh doanh bán thịt bò chấm socola, đấy là "Infrastructure AAS", hay còn gọi là "Cung cấp dịch vụ cơ sở hạ tầng".
 
-Trong chuyên ngành của DevOps, khi ta thuê cơ sở hạ tầng, hiểu đơn giản là ta đang thuê máy tính vật lý của họ gồm server, disks, network, CPU, RAM,...(nhưng mình dùng thông qua Cloud của họ) và sau đó chúng ta có thể làm bất cứ điều gì trên đó, từ hosting cho đến developing. Dùng bao nhiêu trả bao nhiêu, điển hình và nổi tiếng dạo gần đây là các Google Cloud Instance, mình thấy giá có vẻ hơi chát nhưng là đồ xịn.
+Trong chuyên ngành của DevOps, khi ta thuê cơ sở hạ tầng, hiểu đơn giản là ta đang thuê máy tính vật lý của họ gồm server, disks, network, CPU, RAM,...(nhưng mình dùng thông qua Cloud của họ) và sau đó chúng ta có thể làm bất cứ điều gì trên đó, từ hosting cho đến developing. Dùng bao nhiêu trả bấy nhiêu.
 
 ### PaaS (Platform as a Service): 
 
@@ -65,7 +65,7 @@ Vì thường Budget dành cho Data Engineer không nhiều, budget ở đây l�
 ### :four: Các Cloud Providers đáng tin cậy
 1. **SaaS:** Microsoft Office 365, Google Workspace, Dropbox, Slack, Zoom, Adobe Creative Cloud, Cisco Webex, HubSpot, ServiceNow.
 
-2. **IaaS:** Amazon Web Services (AWS), Microsoft Azure, Google Cloud.
+2. **IaaS:** Amazon EC2, Google Cloud Instance.
 
 3. **PaaS:** Microsoft Azure, Google Cloud Platform (GCP), Heroku, IBM Cloud, Oracle Cloud Platform, Salesforce App Cloud.
 
