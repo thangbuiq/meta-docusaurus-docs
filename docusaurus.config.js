@@ -60,7 +60,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Blog @thangbuiq',
         logo: {
           alt: 'My Meta Project Logo',
           src: 'img/docusaurus.png',
@@ -70,9 +70,9 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Data Engineer Tutorial',
           },
-          { to: 'blog', label: 'Blog', position: 'left' },
+          { to: 'blog', label: 'Blog nhảm nhí', position: 'left' },
           // Please keep GitHub link to the right for consistency.
           {
             href: 'https://github.com/thangbuiq',
@@ -132,14 +132,15 @@ const config = {
         // Please do not remove the credits, help to publicize Docusaurus :)
         copyright: `Copyright © ${new Date().getFullYear()} @thangbuiq, Inc. Built with Docusaurus.`,
       },
+      /*
       announcementBar: {
         id: 'support_us',
         content:
-          'Chúc các bạn đọc blog vui vẻ nhé!',
-        backgroundColor: '#fafbfc',
+          'Chúc các bạn có những phút giây đọc blog vui vẻ nhé!',
+        backgroundColor: '#b195ff',
         textColor: '#091E42',
         isCloseable: true,
-      },
+      }, */
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

@@ -142,7 +142,7 @@ div[class^='announcementBar_'] {
       85%);
   --site-announcement-bar-stripe-color2: hsl(var(--site-primary-hue-saturation),
       95%);
-  background: linear-gradient(-225deg, rgb(82, 113, 196) 0%, rgb(177, 159, 255) 48%, rgb(236, 161, 254) 100%);
+  background: #b195ff;
   font-weight: bold;
 }
 
