@@ -32,12 +32,14 @@ Học ngoại ngữ (Tiếng Anh) ở mức khá để có thể đọc hiểu n
 
 ## 5. Data Storage và Data Management:
 
-- Về data storage thì phải nói là ta có khá nhiều options nhưng lời khuyên cho các bạn DE là nên học nhiều nhất có thể trong khả năng của mình (vì ai mà biết liệu công ty sau này mình làm dùng gì đâu đúng không nào), với dữ liệu có cấu trúc thì là PostgreSQL, MySQL,... hay dữ liệu không cấu trúc với MongoDB, Cassandra,...
-- Tìm hiểu cơ bản những framework "nặng ký" Apache Kafka để streaming data real-time và process data theo event.
-- Học cách Dockerize (hiểu đơn giản là "đóng gói") một project DE lại bằng **Docker** để có thể dễ dàng quản lý các công cụ theo dạng services.
-
+- Về data storage thì phải nói là muôn trùng lựa chọn, từ Google Blob Storage cho đến Amazon S3 Storage, học cái nào thì tùy vào nhu cầu thị trường mà thôi, mình recommend vẫn nên xuất phát từ những công cụ **gạo cội** trong làng Cloud Storage như S3.
+- Về data manage thì phải nói là ta có khá nhiều options nhưng lời khuyên cho các bạn DE là nên học nhiều nhất có thể trong khả năng của mình (vì ai mà biết liệu công ty sau này mình làm dùng gì đâu đúng không nào), với dữ liệu có cấu trúc thì là PostgreSQL, MySQL,... hay dữ liệu không cấu trúc với MongoDB, Cassandra,...
+:::danger Optional
+Nếu có thời gian để đi sâu hơn, mình recommend cho các bạn nên tìm hiểu cơ bản những framework "nặng ký" Apache Kafka để streaming data real-time và process data theo event.
+:::
 ## 6. Xây dựng Data Pipelines: ("đường ống dữ liệu")
 ![picture 7](../../images/7c2905628d5135a891b074e2e99e5de667b8def1095c4a2a77143371b893f8c3.png)  
+- Học cách Dockerize (hiểu đơn giản là "đóng gói") một project DE lại bằng **Docker** để có thể dễ dàng quản lý các công cụ theo dạng services.
 - Khám phá qua Apache Airflow hay Dagster để có thể setup và điều phối data pipelines.
 - Học cách để schedule, monitor, và quản lý các tasks data processing trong một distributed environment - hệ thống phân tán. (với Docker và Airflow/Dagster).
 
