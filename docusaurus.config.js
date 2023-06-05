@@ -70,7 +70,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Data Engineer Tutorial',
+            label: 'Data Engineer Roadmap',
           },
           { to: 'blog', label: 'Blog nhảm nhí', position: 'left' },
           // Please keep GitHub link to the right for consistency.
