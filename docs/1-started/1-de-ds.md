@@ -36,7 +36,7 @@ Nhìn chung thì lương của các ngành Data có thể từ mức trung bình
 
 ## 3. Các lĩnh vực rất cần ngành Data:
 
-### Marketing:
+### Marketing
 
 ![picture 4](../../images/d9a4d0fd7016191166e8ee6ef5979dcc2369eea08e58bb89b64c226ac63418bd.png) 
 

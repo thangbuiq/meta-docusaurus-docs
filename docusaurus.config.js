@@ -85,10 +85,10 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Learn',
+            title: 'Get Started',
             items: [
               {
-                label: 'Full Guide',
+                label: 'Documents',
                 to: 'docs/intro',
               },
             ],
@@ -130,7 +130,7 @@ const config = {
           },
         ],
         // Please do not remove the credits, help to publicize Docusaurus :)
-        copyright: `Copyright © ${new Date().getFullYear()} @thangbuiq, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} @thangbuiq, Inc. Built with Meta - Docusaurus.`,
       },
       /*
       announcementBar: {

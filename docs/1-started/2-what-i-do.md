@@ -26,7 +26,7 @@ Học ngoại ngữ (Tiếng Anh) ở mức khá để có thể đọc hiểu n
 ## 4. Làm quen với Big Data
 
 - Học những khái niệm cơ bản về Big Data và những khái niệm, thuật ngữ xoay quanh nó.
-- Để bắt đầu với bài tập thực hành đầu tiên deadling với Big Data, mình gợi ý cho các bạn nên bắt đầu với những framework rất nền tảng, rất "basic" như Apache Hadoop và hệ sinh thái của nó, bao gồm HDFS, MapReduce, vaf YARN.
+- Để bắt đầu với bài tập thực hành đầu tiên deadling với Big Data, mình gợi ý cho các bạn nên bắt đầu với những framework rất nền tảng, rất "basic" như Apache Hadoop và hệ sinh thái của nó, bao gồm HDFS, MapReduce, và YARN.
 - Hiểu được kiến thức cơ bản về Apache Spark, và cách sử dụng như thế nào cho việc xử lý với **"dữ liệu phân tán" (distributed data)**.
 - Khám phá Spark's DataFrame API và RDDs (Resilient Distributed Datasets).
 
@@ -60,5 +60,5 @@ Mình sẽ có một series riêng gồm nhiều bài viết từ cơ bản đ�
 
 ## 9. Advanced Machine Learning Topics:
 ![picture 8](../../images/a6b03f52330ec2151e195ad30babd37e99775a3d72a45a02a3c643c3dcd9850d.png)  
-- Tìm hiểu những thuật toán machine learning và cách đưa chúng vào trong một Dataflow, bắt đầu từ những cái đơn giản nhất như PCA (Principal Component Analysis), K-means clustering, hay những thuật toán giảm chiều khác.
-- Đào sâu vào xử lí ngôn ngữ tự nhiên (NLP), deep learning, và những khía cạnh khác của machine learning, học song song với cách đưa chúng vào trong một Dataflow như thế nào.
+- Tìm hiểu những thuật toán machine learning và cách đưa chúng vào trong một Dataflow, bắt đầu từ những cái đơn giản nhất. (nên bắt đầu từ PCA hoặc giảm chiều là tốt nhất, vì feature engineering là bước đầu của một MLOps)
+- Đào sâu vào deep learning, xử lí ngôn ngữ tự nhiên (NLP), và những khía cạnh khác của machine learning, học song song với cách đưa chúng vào trong một Dataflow như thế nào.

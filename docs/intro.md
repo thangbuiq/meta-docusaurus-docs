@@ -12,6 +12,6 @@ Tại trang blog này, mình sẽ chia sẻ tần tật những kinh nghiệm m�
 
 Các bạn cũng có thể ghé thăm trang **Github** của mình tại đây **[@thangbuiq.github](https://github.com/thangbuiq)**.
 
-## Cảm ơn các bạn khi đã ghé thăm trang của mình nhé!
+## Một lần nữa, xin cảm ơn các bạn khi đã ghé thăm trang của mình nhé!
 ---
 
