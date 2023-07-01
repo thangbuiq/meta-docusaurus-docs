@@ -7,13 +7,15 @@
  * @format
  */
 
-import React from 'react';
+import React, { Fragment } from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import Avatar from '@mui/material/Avatar';
+import Box from '@mui/material/Box';
 
 const features = [
   {
@@ -70,7 +72,14 @@ export default function Home() {
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <div className={styles.avatarContainer}>
+            <Avatar
+              alt="My face"
+              src={useBaseUrl('/img/image.png')}
+              sx={{ width: 200, height: 200, margin: 2 }}
+            />
+          </div>
+          <p className={styles.tagline}>{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
@@ -78,7 +87,8 @@ export default function Home() {
                 styles.getStarted,
                 styles.customButton
               )}
-              to={useBaseUrl('docs/intro')}>
+              to={useBaseUrl('docs/intro')}
+            >
               Get Started
             </Link>
           </div>

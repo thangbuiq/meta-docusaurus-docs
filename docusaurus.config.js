@@ -12,8 +12,8 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Hi there! I'm thangbuiq",
-  tagline: 'Cảm ơn mọi người đã ghé thăm trang blog của mình. Mình đang trên con đường hoàn thiện bản thân, và có thể biến mọi ý tưởng thành sự thật là ước muốn của mình',
+  title: "Thang Bui Quang",
+  tagline: "> I'm a simple guy who loves coding. My job is transforming data into insights, one byte at a time. ▍",
   url: 'https://thangbuiq.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -60,7 +60,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Blog @thangbuiq',
+        title: 'Portfolio',
         logo: {
           alt: 'My Meta Project Logo',
           src: 'img/docusaurus.png',
@@ -70,13 +70,25 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Data Engineer Roadmap',
+            label: 'My Data Engineer Roadmap',
           },
-          { to: 'blog', label: 'Blog nhảm nhí', position: 'left' },
+          { to: 'blog', label: 'Personal Blog', position: 'left' },
           // Please keep GitHub link to the right for consistency.
           {
             href: 'https://github.com/thangbuiq',
             label: 'GitHub',
+            position: 'right',
+          },
+          // https://www.linkedin.com/in/thangbuiq/
+          {
+            href: 'https://www.linkedin.com/in/thangbuiq/',
+            label: 'LinkedIn',
+            position: 'right',
+          },
+          // CV: https://drive.google.com/file/d/1amFr_IOPt9HXE23b_m9JApsElaCKKEgt/view?usp=sharing
+          {
+            href: 'https://drive.google.com/file/d/1amFr_IOPt9HXE23b_m9JApsElaCKKEgt/view?usp=sharing',
+            label: 'Resume (CV)',
             position: 'right',
           },
         ],

@@ -13,7 +13,9 @@
  */
 
 .heroBanner {
-  padding: 3.5rem 0;
+  padding: 4.5rem 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -40,7 +42,16 @@
   border: 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
   margin-top: 10px;
+}
 
+.customButton:hover {
+  background: whitesmoke;
+  opacity: 0.8;
+  color: #a777e3;
+  border: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  margin-top: 10px;
+  transition: 0.5s;
 }
 
 .features {
@@ -54,4 +65,16 @@
   height: 200px;
   width: 200px;
   margin-bottom: .5cm;
+}
+
+.avatarContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 5px;
 }

@@ -34,7 +34,7 @@ Nhìn chung thì lương của các ngành Data có thể từ mức trung bình
   - **Variety:** độ da dạng không thể kể hết được, từ có cấu trúc đến không cấu trúc, không chỉ là text, số thông thường mà đó có thể là video, hình ảnh,...
   - **Velocity:** tốc độ dữ liệu sinh ra cực khủng (ví dụ như dữ liệu thống kê trên facebook, một giây trôi qua có biết bao nhiêu status đã up và bao nhiêu comment)
 
-## 3. Các lĩnh vực rất cần ngành Data:
+## 3. Các lĩnh vực rất cần ngành Data
 
 ### Marketing
 
@@ -66,7 +66,7 @@ Sau đại dịch Covid19, nhu cầu của Data Science đang trở nên đặc 
 - Big Data có thể đánh giá các triệu chứng và xác định nhiều bệnh ở giai đoạn đầu.
 - Các ứng dụng Big Data cũng có thể báo trước khu vực có nguy cơ bùng phát dịch như: sốt xuất huyết hoặc sốt rét.
 
-## 5. Data Workflow:
+## 5. Example for Data Workflow
 :::tip
 Một ví dụ của một data workflow như sau thông qua DFD (Data Flow Diagram):
 :::
