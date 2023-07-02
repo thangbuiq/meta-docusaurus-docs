@@ -50,6 +50,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+
 .header-github-link:hover {
   opacity: 0.6;
 }
@@ -131,10 +132,12 @@ html[data-theme='dark'] .DocSearch {
 
 .navbar {
   background-color: #0e1217;
+  transition: 0.5s;
 }
 
 html[data-theme='light'] .navbar {
   background-color: #fff;
+  transition: 0.5s;
 }
 
 div[class^='announcementBar_'] {

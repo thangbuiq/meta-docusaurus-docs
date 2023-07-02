@@ -40,7 +40,7 @@ Cứ hiểu là bạn muốn kinh doanh làm ăn cái gì đó nhưng bạn đan
 
 Trong chuyên ngành của DevOps, khi ta thuê cơ sở hạ tầng, hiểu đơn giản là ta đang thuê máy tính vật lý của họ gồm server, disks, network, CPU, RAM,...(nhưng mình dùng thông qua Cloud của họ) và sau đó chúng ta có thể làm bất cứ điều gì trên đó, từ hosting cho đến developing. Dùng bao nhiêu trả bấy nhiêu.
 
-### PaaS (Platform as a Service): 
+### PaaS (Platform as a Service)
 
 ![picture 2](../../images/ed1269180f489fbee6104e2f8720158b42cc0586b0325f763e03824b6c2a96e2.png)  
 

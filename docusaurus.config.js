@@ -55,9 +55,15 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: 'dark',
+        // The default color mode you want
+        defaultMode: 'light',
+  
+        // should we use the user preferred color scheme media query?
+        // people generally expect "defaultMode" to 
+        respectPrefersColorScheme: false,
+  
+        // disable the light/dark color mode switch
         disableSwitch: false,
-        respectPrefersColorScheme: true,
       },
       navbar: {
         title: 'Portfolio',
@@ -70,15 +76,21 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'My Data Engineer Roadmap',
+            label: 'My Data Engineer Blog',
           },
-          { to: 'blog', label: 'Personal Blog', position: 'left' },
+          // { to: 'blog', label: 'Personal Blog', position: 'left' },
           // Please keep GitHub link to the right for consistency.
           {
-            href: 'https://github.com/thangbuiq',
-            label: 'GitHub',
+            href: 'https://drive.google.com/file/d/1amFr_IOPt9HXE23b_m9JApsElaCKKEgt/view?usp=sharing',
+            label: 'Resume (CV)',
             position: 'right',
           },
+          {
+            href: 'https://github.com/thangbuiq/meta-docusaurus-docs',
+            label: 'Source',
+            position: 'right',
+          },
+          /*
           // https://www.linkedin.com/in/thangbuiq/
           {
             href: 'https://www.linkedin.com/in/thangbuiq/',
@@ -86,11 +98,7 @@ const config = {
             position: 'right',
           },
           // CV: https://drive.google.com/file/d/1amFr_IOPt9HXE23b_m9JApsElaCKKEgt/view?usp=sharing
-          {
-            href: 'https://drive.google.com/file/d/1amFr_IOPt9HXE23b_m9JApsElaCKKEgt/view?usp=sharing',
-            label: 'Resume (CV)',
-            position: 'right',
-          },
+          */
         ],
       },
       footer: {

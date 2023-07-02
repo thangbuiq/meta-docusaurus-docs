@@ -16,6 +16,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
+import { Socials } from '../components';
 
 const features = [
   {
@@ -72,6 +73,7 @@ export default function Home() {
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
+          <p className={styles.tagline}>{siteConfig.tagline}</p>
           <div className={styles.avatarContainer}>
             <Avatar
               alt="My face"
@@ -79,7 +81,9 @@ export default function Home() {
               sx={{ width: 200, height: 200, margin: 2 }}
             />
           </div>
-          <p className={styles.tagline}>{siteConfig.tagline}</p>
+          <Socials />
+          <p className={styles.tagline}>I'm a <b>Machine Learning Engineer</b> specializing in healthcare.</p>
+          <p className={styles.tagline}>My goal is to drive innovation and improve patient outcomes for a brighter <b>future</b>.</p>
           <div className={styles.buttons}>
             <Link
               className={clsx(

@@ -4658,6 +4658,11 @@ feed@^4.2.2:
   dependencies:
     xml-js "^1.6.11"
 
+fg-loadcss@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/fg-loadcss/-/fg-loadcss-3.1.0.tgz#f7f148dccf8a6899f846a974ed50539880158acb"
+  integrity sha512-UgtXKza8nBUO6UWW4c+MOprRL4W5WbIkzPJafnw6y6f5jhA3FiSZkWz8eXeAeX+mC4A/qq0ByDLiAk6erNARaQ==
+
 file-entry-cache@^6.0.1:
   version "6.0.1"
   resolved "https://registry.npmjs.org/file-entry-cache/-/file-entry-cache-6.0.1.tgz"
