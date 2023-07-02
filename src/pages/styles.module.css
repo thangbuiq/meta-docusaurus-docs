@@ -24,14 +24,14 @@
   /* linear-gradient(-225deg, rgb(82, 113, 196) 0%, rgb(177, 159, 255) 48%, rgb(236, 161, 254) 100%) */
   background-color: white;
   color: rgb(35, 45, 75);
-  transition: 1s;
+  transition: 0.75s;
 }
 
 html[data-theme='dark'] .heroBanner {
   background-color: #7a7adb;
   background-image: linear-gradient(315deg, #7a7adb 0%, #170e13 74%);  
   color: whitesmoke;
-  transition: 1s;
+  transition: 0.75s;
 }
 
 @media screen and (max-width: 996px) {
